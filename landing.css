@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: black;
+    font-family:'Ubuntu Mono',monospace ;
+
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #8cc099;
+}
+nav .heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 8px 15px;
+    border-radius: 8px 15px;
+    transition: 0.2s ease-in;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    background-color: green;
+    text-decoration: wavy;
+}
+nav ul li a:hover{
+    color:white;    
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.side2 img{
+    border-radius: 13px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.side1{
+    padding-right: 50px;
+}
+.side1 h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: green;
+}
+.side1 button{
+    width: 200px;
+    padding: 12px 20px;
+    border-radius: 13px;
+    border-style: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+}
+/* SECTION */
+section .topic a{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom:10px;
+}
+.title{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    margin: 10px 20px;
+    max-width: calc(100%/3 - 50px);
+    text-align: center;
+    border-radius: 15px;
+    padding:30px 10px ;
+    box-shadow: 0 5px 10px rgba(6, 224, 210, 0.871);
+    cursor: default;
+}
+.contact{
+    padding: 30px;
+}
+.content{
+    margin:0 auto ;
+    padding:30px 0;
+}
+.contactMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.input2{
+    margin-top: 10;
+}
+label1{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+
+}
+.input1 input{
+    border-radius: 13px;
+    padding: 6px;
+}
+.input2 input{
+    border-color: rgb(252,244,244);
+    width: 400px;
+}
+.button{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.button button{
+    width: 162px;
+    height: 35px;
+    border-radius: 12px;
+    background: transparent;
+    color: black;
+    font-size: 15px;
+    font-family:'Ubuntu Mono',monospace ;
+    font-weight: 600;
+
+}
+button:hover{
+    background-color: #8cc099;
+
+}
+.rightside1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.title1{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.content1{
+    width: 450px;
+    margin-top: 2px;
+    
+}
